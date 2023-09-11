@@ -5,6 +5,7 @@ At the end of every course, there will be a Final Assignment, and will be graded
 If you didn't pass the minimum grade requirements, you can revise it based on the feedback that you have received.
 
 Module: 
+
 1 What is Data Science?
 
 2 Tools for Data Science  
