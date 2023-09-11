@@ -7,7 +7,6 @@ If you didn't pass the minimum grade requirements, you can revise it based on th
 Module: 
 
 1 What is Data Science?
-
 2 Tools for Data Science  
 3 Data Science Methodology   
 4 Python for Data Science, AI & Development  
