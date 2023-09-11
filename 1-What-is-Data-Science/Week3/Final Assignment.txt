@@ -1,0 +1,22 @@
+Peer-graded Assignment: Final Assignment
+
+Instructions
+
+In this Assignment, you will demonstrate your understanding of the videos and the readings by answering open-ended questions, defining data science and data scientist, and describing the different sections comprising a final deliverable of a data science project. Please note that this assignment is worth 10% of your final grade.
+
+Review criteria
+less 
+This assignment will be graded by your peers who are also completing this course during the same session.
+
+There are a total of 10 points possible for this final project.
+
+Below is the breakdown of possible points:
+
+Problem 1:  3 points
+Data Science is what Data scientist do, it requires Curiosity, Argumentative and Judgemental ability.
+
+Problem 2:  2 points
+The wide region that Data Science could be applied to made me more excited to learn more about it. The industry that I have the most passion for is in Education and Health. I would like to pursue a career out of those two industries and give a positive impact to Society
+
+Problem 3:  5 points
+The ten main components of a report should contain a cover page, a table of contents, an abstract, an introduction section, the methodology, the results, a discussion section, a conclusion, a reference, and an appendix.
