@@ -1,0 +1,57 @@
+excercise 1
+
+select cps.name_of_school, cps.average_student_attendance, csd.community_area_name, csd.hardship_index
+from chicago_public_schools as cps
+left outer join chicago_socioeconomic_data as csd
+on cps.COMMUNITY_AREA_NUMBER = csd.COMMUNITY_AREA_NUMBER
+where csd.hardship_index = 98
+
+select cc.case_number, cc.primary_type, csd.community_area_name, cc.location_description
+from chicago_crime as cc
+left outer join chicago_socioeconomic_data as csd
+on cc.COMMUNITY_AREA_NUMBER = csd.COMMUNITY_AREA_NUMBER
+where cc.location_description like '%SCHOOL%';
+
+excercise 2
+
+ALTER TABLE `chicago_public_schools` 
+RENAME COLUMN NAME_OF_SCHOOL TO School_Name,
+RENAME COLUMN Safety_Icon TO Safety_Rating,
+RENAME COLUMN Family_Involvement_Icon TO Family_Rating;
+RENAME COLUMN Environment_Icon TO Environment_Rating;
+RENAME COLUMN Instruction_Icon TO Instruction_Rating;
+RENAME COLUMN Leaders_Icon TO Leaders_Rating;
+RENAME COLUMN Teachers_Icon TO Teachers_Rating
+
+SELECT "NAME_OF_SCHOOL" AS School_Name,
+				"Safety_Icon" AS Safety_Rating,
+				"Family_Involvement_Icon" AS Family_Rating,
+				"Environment_Icon" AS Environment_Rating,
+				"Instruction_Icon" AS Instruction_Rating,
+				"Leaders_Icon" AS Leaders_Rating,
+				"Teachers_Icon" AS Teachers_Rating
+from chicago_public_schools as cps;
+
+RENAME COLUMN Family_Involvement_Icon TO Family_Rating;
+
+---
+
+--#SET TERMINATOR @
+CREATE PROCEDURE UPDATE_LEADERS_SCORE(
+IN in_school_ID INTERGER,
+IN in_Leader_Score INTERGER)
+
+LANGUAGE SQL
+READS SQL DATA
+
+DYNAMIC RESULT SETS 1
+
+BEGIN
+
+DECLARE C1 CURSOR
+WITH RETURN FOR
+
+SELECT * FROM chicago_public_schools 
+OPEN C1;
+
+END

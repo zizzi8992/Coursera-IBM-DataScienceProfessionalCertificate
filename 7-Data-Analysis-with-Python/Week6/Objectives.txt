@@ -1,0 +1,38 @@
+Congratulations! You have now completed all the modules for this course. In this last module, you will complete the final assignment that will be graded by your peers. In this final assignment, you will assume the role of a Data Analyst working at a real estate investment trust organization who wants to start investing in residential real estate. You will be given a dataset containing detailed information about house prices in the region based on a number of property features, and it will be your job to analyze and predict the market price of houses given that information.
+
+Learning Objectives
+
+Create a Jupyter notebook
+Apply data analysis and modeling techniques to housing price data
+
+Project Scenario
+
+In this assignment, you are a Data Analyst working at a Real Estate Investment Trust. The Trust would like to start investing in Residential real estate. You are tasked with determining the market price of a house given a set of features. You will analyze and predict housing prices using attributes or features such as square footage, number of bedrooms, number of floors, and so on. A template notebook is provided in the lab; your job is to complete the ten questions. Some hints to the questions are given in the template notebook.
+
+Dataset Used in this Assignment
+
+The dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. It was taken from 
+here https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-wwwcourseraorg-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDA0101ENSkillsNetwork20235326-2022-01-01
+ It was also slightly modified for the purposes of this course. 
+
+For this project, you will utilize JupyterLab running on the Cloud in Skills Network Labs environment. 
+
+Notebook URL: Alternatively, you can work on your local machine or any other environment of choice, by downloading this link : Notebook link House Sales
+
+Course Creators
+
+Joseph has a Ph.D. in Electrical Engineering, his research focused on using machine learning, signal processing, and computer vision to determine how videos impact human cognition. Joseph has been working for IBM since he completed his PhD.
+
+Mahdi Noorian Ph.D.
+
+Mahdi Noorian is a Postdoctoral Fellow at the Laboratory for Systems, Software and Semantics (LS3) of the Ryerson University. He holds a Ph.D degree in Computer Science from University of New Brunswick. As a Data Scientist, he is interested in application of machine learning, data mining, optimization, and semantic data analysis for big data to solve the real-world problems.
+
+
+Other Contributors
+The following individuals also contributed to this course: 
+Bahare Talayian, 
+Fiorella Wenver, 
+Ke Xing , 
+Steven Dong
+ and 
+Hima Vasudevan

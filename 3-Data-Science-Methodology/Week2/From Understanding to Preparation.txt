@@ -1,0 +1,41 @@
+Data Understanding
+
+welecome to the data science methodology 101 from understanding to preparation. data understanding, data understanding encompasses all activities related to constructing the data set. essentially the data understanding section of the data science methodology answers the question. let's apply in order to understand the data related to congestive heart failure. admissions descriptive statistics needed to be run against the data columns that would become variables in the model. first these statistics included Hearst univariants and statistics on each variable such as mean median minimum maximum and standard deviation.
+second, pairwise correlations were used to see how closely certain variables were related and which ones if any were very highly correlated meaning that they would be essentially redundant thus making only one relevant for modeling. third histograms of the variables were examined to understand their distributions are a good way to understand how values or variable are distributed and which source of data preparation may be needed to more useful in the model. for example for a categorical variable that has too many distinct values to be informative in a model that has to grab would help them decide how to consolidate those values the univariants statistics and histograms are also used to assess data quality. from the information provided certain values can be recoded or perhaps even dropped if necessary such as when a certain variable has missing values. sometimes in missing value might mean no or zero or at other times is simply means we don't know or if a variable contains invalid or misleading values. such as a numeric variable called age that contains zero to 100 and also 999 actually means missing but would be treated as a valid value unless we corrected it. initially the meaning of congestive heart failure admission was decided on the basis of a primary diagnosis of congestive heart failure. the working through the data understanding stage revealed that the initial definition was not capturing all of the congestive heart failure admissions that were expected based on clinical experience. back to the data collection stage and adding secondary and tertiary diagnosis and building a more comprehensive definition of congestive heart failure. this is just one example of the interactive processes in the methodology the more one works with the problem and the data the more one learns and therefore the more refinement that could be done within the model ultimately leading to a better solution to the problem.
+
+Data Preparation - Concepts
+
+Welcome to Data Science Methodology 101 From Understanding to Preparation Data Preparation - Concepts! In a sense, data preparation is similar to washing freshly picked vegetables in so far as unwanted elements, such as dirt or imperfections, are removed. Together with data collection and data understanding, data preparation is the most time-consuming phase of a data science project, typically taking 70% and even up to even 90% of the overall project time. Automating some of the data collection and preparation processes in the database, can reduce this time to as little as 50%. This time savings translates into increased time for data scientists to focus on creating models. To continue with our cooking metaphor, we know that the process of chopping onions to a finer state will allow for its flavours to spread through a sauce more easily than that would be the case if we were to drop the whole onion into the sauce pot. Similarly, transforming data in the data preparation phase is the process of getting the data into a state where it may be easier to work with. Specifically, the data preparation stage of the methodology answers the question: What are the ways in which data is prepared? To work effectively with the data, it must be prepared in a way that addresses missing or invalid values and removes duplicates, toward ensuring that everything is properly formatted. Feature engineering is also part of data preparation. It is the process of using domain knowledge of the data to create features that make the machine learning algorithms work. A feature is a characteristic that might help when solving a problem. Features within the data are important to predictive models and will influence the results you want to achieve. Feature engineering is critical when machine learning tools are being applied to analyze the data. When working with text, text analysis steps for coding the data are required to be able to manipulate the data. The data scientist needs to know what they're looking for within their dataset to address the question. The text analysis is critical to ensure that the proper groupings are set, and that the programming is not overlooking what is hidden within. The data preparation phase sets the stage for the next steps in addressing the question. While this phase may take a while to do, if done right the results will support the project. If this is skipped over, then the outcome will not be up to par and may have you back at the drawing board. It is vital to take your time in this area, and use the tools available to automate common steps to accelerate data preparation. Make sure to pay attention to the detail in this area. After all, it takes just one bad ingredient to ruin a fine meal. This ends the Data Preparation section of this course, in which we've reviewed key concepts. Thanks for watching!
+
+Lesson Summary
+
+In this lesson, you have learned:
+
+The importance of descriptive statistics.
+
+How to manage missing, invalid, or misleading data.
+
+The need to clean data and sometimes transform it.
+
+The consequences of bad data for the model.
+
+Data understanding is iterative; you learn more about your data the more you study it. 
+
+
+From Modeling to Evaluation
+
+Lesson Summary
+
+In this lesson, you have learned:
+
+The difference between descriptive and predictive models.
+
+The role of training sets and test sets.
+
+The importance of asking if the question has been answered.
+
+Why diagnostic measures tools are needed.
+
+The purpose of statistical significance tests.
+
+That modeling and evaluation are iterative processes.

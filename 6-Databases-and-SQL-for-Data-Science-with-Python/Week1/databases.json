@@ -1,0 +1,30 @@
+databases.json
+[
+    {
+        "name": "_memory",
+        "route": "_memory",
+        "path": null,
+        "size": 0,
+        "is_mutable": false,
+        "is_memory": true,
+        "hash": null
+    },
+    {
+        "name": "SanFranciscoFilmLocations",
+        "route": "SanFranciscoFilmLocations",
+        "path": "/resources/datasette/coursera/DB0201EN/lab2/SanFranciscoFilmLocations.sqlite",
+        "size": 1462272,
+        "is_mutable": true,
+        "is_memory": false,
+        "hash": null
+    },
+    {
+        "name": "Instructors",
+        "route": "Instructors",
+        "path": "/resources/datasette/coursera/DB0201EN/lab3/Instructors.db",
+        "size": 12288,
+        "is_mutable": true,
+        "is_memory": false,
+        "hash": null
+    }
+]

@@ -1,0 +1,22 @@
+In this module, you will learn about the importance of model evaluation and discuss different data model refinement techniques. You will learn about model selection and how to identify overfitting and underfitting in a predictive model. You will also learn about using Ridge Regression to regularize and reduce standard errors to prevent overfitting a regression model and how to use the Grid Search method to tune the hyperparameters of an estimator.
+
+Learning Objectives
+
+Describe data model refinement techniques
+Explain overfitting, underfitting and model selection
+Apply ridge regression to regularize and reduce the standard errors to avoid overfitting a regression model
+Apply grid search techniques to Python data
+
+Ridge Regression Introduction
+
+Ridge regression is a regression that is employed in a Multiple regression model when Multicollinearity occurs. Multicollinearity is when there is a strong relationship among the independent variables. Ridge regression is very common with polynomial regression.  The next video shows how Ridge regression is used to regularize and reduce the standard errors to avoid over-fitting a regression model
+
+Lesson Summary
+
+In this lesson, you have learned how to:
+
+Identify over-fitting and under-fitting in a predictive model: Overfitting occurs when a function is too closely fit to the training data points and captures the noise of the data. Underfitting refers to a model that can't model the training data or capture the trend of the data.
+
+Apply Ridge Regression to linear regression models: Ridge regression is a regression that is employed in a Multiple regression model when Multicollinearity occurs.
+
+Tune hyper-parameters of an estimator using Grid search: Grid search is a time-efficient tuning technique that exhaustively computes the optimum values of hyperparameters performed on specific parameter values of estimators.

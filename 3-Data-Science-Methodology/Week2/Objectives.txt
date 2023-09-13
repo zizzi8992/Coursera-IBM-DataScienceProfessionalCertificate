@@ -1,0 +1,9 @@
+In this module, you will learn what it means to understand data, and prepare or clean data. You will also learn about the purpose of data modeling and some characteristics of the modeling process. Finally, through a lab session, you will learn how to complete the Data Understanding and the Data Preparation stages, as well as the Modeling and the Model Evaluation stages pertaining to any data science problem.
+
+Learning Objectives
+
+Prepare a data set by handling missing, invalid, or misleading data.
+Describe the purpose and characteristics of the data modeling process.
+Evaluate a decision tree model using a training and a test dataset.
+Build a decision to tree to determine the cuisine type for a data set of recipes.
+Summarize the processes of understanding data preparing data, modeling, and evaluation phases of the data science methodology.

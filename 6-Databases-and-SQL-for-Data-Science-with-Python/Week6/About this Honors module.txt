@@ -1,0 +1,7 @@
+About this Honors module
+
+This module covers some advanced SQL techniques that will be useful for Data Engineers. If you are following the Data Engineering track, you must complete this module. 
+
+This module is optional for those of you following the Data Science or Data Analyst tracks. If you choose to complete it, you will be awarded an Honors level certificate. 
+
+In this module, you will learn how to form more powerful queries by using advanced techniques like views, transactions, stored procedures, and joins. 
